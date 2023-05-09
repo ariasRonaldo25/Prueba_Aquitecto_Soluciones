@@ -3,7 +3,9 @@ Prueba tecnica aprendiz arquitecto de soluciones Zenware
 
 <p align="center"><img src="https://github.com/ariasRonaldo25/Prueba_Aquitecto_Soluciones/blob/main/img/Arquitectura.png" height="450px"></p>
 
-*En este diagrama, los dispositivos de medición (por ejemplo, medidores de agua) están conectados a AWS IoT Core, que es un servicio de administración de dispositivos de IoT en AWS. AWS IoT Core recibe los datos de medición de los dispositivos y los transmite a través de la nube de AWS.
+## Descripción.
+
+En este diagrama, los dispositivos de medición (por ejemplo, medidores de agua) están conectados a AWS IoT Core, que es un servicio de administración de dispositivos de IoT en AWS. AWS IoT Core recibe los datos de medición de los dispositivos y los transmite a través de la nube de AWS.
 
 Luego, los datos de medición se procesan utilizando AWS Lambda, que permite realizar operaciones de procesamiento adicional, como validación de datos o cálculos específicos.
 
