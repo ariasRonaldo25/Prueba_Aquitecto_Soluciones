@@ -1,6 +1,9 @@
 # Prueba_Aquitecto_Soluciones
 Prueba tecnica aprendiz arquitecto de soluciones Zenware
 
+## Arquitectura Propuesta.
+[Arq](https://github.com/ariasRonaldo25/Prueba_Aquitecto_Soluciones/blob/main/img/Arquitectura.png) 
+
 <p align="center"><img src="https://github.com/ariasRonaldo25/Prueba_Aquitecto_Soluciones/blob/main/img/Arquitectura.png" height="450px"></p>
 
 ## Descripción.
@@ -25,6 +28,11 @@ Para una información más detallada de la arquitectura propuesta, mayor informa
 1.Instalación de las dependencias:
 
 Asegúrate de tener Python instalado en tu sistema. Puedes descargarlo desde el sitio web oficial de Python (https://www.python.org).
+
+Ten en cuenta que este script asume que estás utilizando una base de datos PostgreSQL en el entorno on-premise. Debes asegurarte de tener los controladores necesarios para la conexión a la base de datos en tu entorno local.
+
+Además, el script utiliza la biblioteca psycopg2 para la conexión a la base de datos on-premise y la biblioteca boto3 para interactuar con los servicios de AWS, específicamente con Amazon RDS. Asegúrate de tener estas bibliotecas instaladas en tu entorno Python antes de ejecutar el script.
+
 Instala las bibliotecas necesarias ejecutando los siguientes comandos en tu terminal:
 
 pip install psycopg2
@@ -43,6 +51,9 @@ Reemplaza los valores de aws_region, aws_db_instance_identifier, aws_db_name, aw
 Abre una terminal o línea de comandos y navega hasta el directorio donde guardaste el archivo del script.
 Ejecuta el script usando el comando python db_promise.py.
 
-Ten en cuenta que este script asume que estás utilizando una base de datos PostgreSQL en el entorno on-premise. Debes asegurarte de tener los controladores necesarios para la conexión a la base de datos en tu entorno local.
+## Archivo .csv.
+[.csv](https://github.com/ariasRonaldo25/Prueba_Aquitecto_Soluciones/blob/main/files/datos.csv) 
 
-Además, el script utiliza la biblioteca psycopg2 para la conexión a la base de datos on-premise y la biblioteca boto3 para interactuar con los servicios de AWS, específicamente con Amazon RDS. Asegúrate de tener estas bibliotecas instaladas en tu entorno Python antes de ejecutar el script.
+## Archivo Especificaciones.
+[Esp](https://github.com/ariasRonaldo25/Prueba_Aquitecto_Soluciones/blob/main/files/especificaciones.txt) 
+Para conocer más a detalle sobre las especificaciones consultar el documento general de la prueba.
