@@ -42,3 +42,7 @@ Reemplaza los valores de aws_region, aws_db_instance_identifier, aws_db_name, aw
 
 Abre una terminal o línea de comandos y navega hasta el directorio donde guardaste el archivo del script.
 Ejecuta el script usando el comando python db_promise.py.
+
+Ten en cuenta que este script asume que estás utilizando una base de datos PostgreSQL en el entorno on-premise. Debes asegurarte de tener los controladores necesarios para la conexión a la base de datos en tu entorno local.
+
+Además, el script utiliza la biblioteca psycopg2 para la conexión a la base de datos on-premise y la biblioteca boto3 para interactuar con los servicios de AWS, específicamente con Amazon RDS. Asegúrate de tener estas bibliotecas instaladas en tu entorno Python antes de ejecutar el script.
