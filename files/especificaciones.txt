@@ -1,0 +1,18 @@
+
+
+Especificaciones de transformación de datos:
+
+1. Renombrar columnas:
+   - Renombrar "Cliente" a "ID_Cliente".
+   - Renombrar "Consumo_Agua" a "Agua_Consumida".
+   
+
+2. Convertir unidades:
+   - Convertir "Agua_Consumida" de galones a litros multiplicando por 3.785.
+   
+
+3. Agregar columna calculada:
+   - Agregar columna "Total_Consumo" que sea la suma de "Agua_Consumida"
+
+
+4. Ordenar los datos por "ID_Cliente" de forma ascendente.
